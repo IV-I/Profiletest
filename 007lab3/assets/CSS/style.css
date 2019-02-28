@@ -1,0 +1,60 @@
+@import "templtecolours.css";
+
+body{
+    max-width:960px;
+    margin-left: auto;
+    marginp-right: auto;
+}
+/* Navigation Bar CSS */
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-docoration: none;
+}
+
+li a:hover {
+    color: #363636;
+}
+
+/* Image Sizing CSS */
+#csdmlogo {
+    width: 300px;
+}
+
+#banner {
+    max-width: 960px;
+}
+
+#hos {
+    width: 200px;
+}
+
+/* Text Styling */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+p, h2, h3, h4, h5 a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h3, h4, h5 {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+
